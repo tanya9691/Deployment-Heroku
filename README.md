@@ -10,7 +10,8 @@ who don't have access to a vehicle, typically travelers and particularly tourist
 Specialized bike rental shops thus typically operate at beaches, parks, or other
 locations that tourists frequent. In this case, the fees are set to encourage renting the
 bikes for a few hours at a time, rarely more than a day. <br>
-## Objective- The objective of this Case is to predict the bike rental count based on the environmental and seasonal settings, Sothat required bikes would be arranged and managed by the shops according to environmental and seasonal conditions.<br>
+## Objective- 
+##The objective of this Case is to predict the bike rental count based on the environmental and seasonal settings, Sothat required bikes would be arranged and managed by the shops according to environmental and seasonal conditions.<br>
 
 
 ## Data
@@ -72,10 +73,10 @@ You must have Scikit Learn, Pandas (for Machine Learning Model) and Flask (for A
 
 ### Project Structure
 This project has four major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
+1. model.py - This contains code fot our Machine Learning model to predict bike rental count absed on trainign data in 'day2.csv' file.
+2. app.py - This contains Flask APIs that receives parameters through GUI or API calls, computes the precited value based on our model and returns it.
 3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+4. templates - This folder contains the HTML template to allow user to enter parameters and displays the predicted bike rent count.
 
 ### Running the project
 1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
@@ -92,14 +93,10 @@ By default, flask will run on port 5000.
 
 3. Navigate to URL http://localhost:5000
 
-You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/Homepage.png)
-
+You should be able to view the homepage:
 Enter valid numerical values in all 10 input boxes and hit Predict.
 
-If everything goes well, you should  be able to see the predcited salary vaule on the HTML page!
-![alt text](http://www.thepythonblog.com/wp-content/uploads/Result.png)
-
+If everything goes well, you should  be able to see the predcited bike count value on the HTML page!
 
 4. You can also send direct POST requests to FLask API using Python's inbuilt request module
 Run the beow command to send the request with some pre-popuated values -
