@@ -68,7 +68,7 @@ registered: count of registered users
 cnt: count of total rental bikes including both casual and registered
 
 ### Prerequisites
-You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
+You must have Scikit Learn, Pandas (for Machine Learning Model) and Flask (for API) installed.
 
 ### Project Structure
 This project has four major parts :
