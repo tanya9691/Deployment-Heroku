@@ -1,5 +1,8 @@
 ## ML-Model-Deployment-Bike-Rental-Count-Prediction
-Machine Learning Model is deployed on production using Flask API
+Machine Learning Model is deployed on production using Flask API<br>
+<br>
+Access the project using-- https://bike-rental-application.herokuapp.com/
+
 ## Problem Statement-
 A bike rental is a bicycle business that rents bikes for short periods of time. <br>
 Most rentals are provided by bike shops as a sideline to their main businesses of sales and
@@ -93,9 +96,10 @@ By default, flask will run on port 5000.
 
 3. Navigate to URL http://localhost:5000
 
-You should be able to view the homepage:
-Enter valid numerical values in all 10 input boxes and hit Predict.
+You should be able to view the homepage:<br>
 
+Enter valid numerical values in all 10 input boxes and hit Predict.
+<br>
 If everything goes well, you should  be able to see the predcited bike count value on the HTML page!
 
 4. You can also send direct POST requests to FLask API using Python's inbuilt request module
